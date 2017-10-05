@@ -1,3 +1,3 @@
 # App Info
 
-This app uses the iTunes Search API to pull information based on IDs
+Find meta data information on apps from Apple App Store or Google Play Store
