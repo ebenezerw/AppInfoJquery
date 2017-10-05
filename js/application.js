@@ -1,10 +1,11 @@
 $(document).ready(() => {
+// listen for keypress
   $("#appid").on("keypress", () => {
     var input = $("#appid").val()
     var newData = input.split(" ").join(',');
     // console.log(newData)
-    var url = "https://itunes.apple.com/lookup?id="+newData
-    // var url = "https://itunes.apple.com/lookup?bundleId="+newData
+    // var url = "https://itunes.apple.com/lookup?id="+newData
+    var url = "https://itunes.apple.com/lookup?bundleId="+newData
     $.ajax({
       type: 'GET',
       dataType: 'json',
@@ -19,8 +20,10 @@ $(document).ready(() => {
               "<td>" + value.trackName + "</td>" +
               "<td>" + value.bundleId + "</td>" +
               "<td>" + value.trackId + "</td>" +
+              "<td>" + value.genres + "</td>" +
               "<td>" + value.currentVersionReleaseDate.slice(0,-10) + "</td>" +
               "<td>" + value.averageUserRating + "</td>" +
+              "<td>" + value.trackContentRating + "</td>" +
               "<td>" + "<a href="+value.trackViewUrl+">" + "Click Here" + "</a>" + "</td>" +
           "</tr>"
         )
