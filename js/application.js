@@ -8,9 +8,9 @@ $(document).ready(() => {
     var newData = input.split(" ").join(',');
     // console.log(newData)
 
-// api call - will update to pull Android and iOS apps from single API.
-    // var url = "https://itunes.apple.com/lookup?id="+newData
-    var url = "https://itunes.apple.com/lookup?bundleId="+newData
+// api call - will update to pull Android and iOS apps from single API. 448999087 com.thechive.Chive
+    var url = "https://itunes.apple.com/lookup?id="+newData
+    // var url = "https://itunes.apple.com/lookup?bundleId="+newData
     $.ajax({
       type: 'GET',
       dataType: 'json',
@@ -20,11 +20,11 @@ $(document).ready(() => {
 // pass response to variable and loop through each object and display in UI
       var apps = response.results
       $(apps).each(function (index, value) {
-        $("a").attr('target','_blank');
         $("table").append(
           "<tr>" +
-              "<td>" + value.sellerName + "</td>" +
+              "<td>" + "<img src="+value.artworkUrl60+">" + "</td>" +
               "<td>" + value.trackName + "</td>" +
+              "<td>" + value.sellerName + "</td>" +
               "<td>" + value.bundleId + "</td>" +
               "<td>" + value.trackId + "</td>" +
               "<td>" + value.genres + "</td>" +
@@ -35,6 +35,7 @@ $(document).ready(() => {
           "</tr>"
         )
       })
+      $("a").attr('target','_blank');
       $('#appid').val(" ");
     }).fail((response) => {
       console.log("Ajax get request failed.");
