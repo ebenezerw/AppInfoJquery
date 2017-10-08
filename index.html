@@ -7,16 +7,53 @@
   <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
   <script type="text/javascript" src="js/application.js"></script>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/master.css">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 </head>
 
+
+
 <body>
+
   <div class="container-fluid">
+
     <h1>App Search</h1>
-    <div class="input-group">
-      <span class="input-group-addon" id="basic-addon1">Search</span>
-      <input id="appid" type="text" class="form-control" placeholder="Enter App Info Here" aria-describedby="basic-addon1">
-    </div>
+
+
+    <div class="form-group">
+
+
+
+    <form class="">
+      <label class="control-label">Search By: </label>
+      <label class="radio-inline"><input type="radio" name="searchType" value="id" checked="checked">App ID #</label>
+      <label class="radio-inline"><input type="radio" name="searchType" value="bundleId">Bundle ID:</label>
+    </form>
+
+    <form class="">
+      <label class="control-label">OS: </label>
+      <label class="radio-inline"><input type="radio" name="optradio" checked="checked">iOS</label>
+      <label class="radio-inline"><input type="radio" name="optradio">Android</label>
+    </form>
+
+</div>
     <p>
+
+    <!-- Search bar -->
+      <div class="input-group">
+        <input type="text" class="form-control" id="appid" placeholder="Enter App ID or Bundle ID">
+        <div class="input-group-btn">
+          <button class="btn btn-success" id="search" type="submit">Submit
+      <!-- <i class="glyphicon glyphicon-search"></i> -->
+    </button>
+        </div>
+      </div>
+
+
+    <p>
+
+
       <div class="panel panel-default">
         <!-- Table -->
         <table class="table">
@@ -30,11 +67,15 @@
             <th>Last Updated</th>
             <th>User Rating</th>
             <th>Content Rating</th>
-            <th>Store URL</th>
+            <!-- <th>Store URL</th> -->
           </tr>
         </table>
       </div>
+
+
+
   </div>
+
 </body>
 
 </html>
