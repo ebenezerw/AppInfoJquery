@@ -50,9 +50,9 @@ $(document).ready(() => {
     var datetime = "App_Search_"
     + (currentdate.getMonth() + 1)  + "."
                 + currentdate.getDate() + "."
-                + currentdate.getFullYear() + "-"
-                + currentdate.getHours() + ":"
-                + currentdate.getMinutes();
+                + currentdate.getFullYear();
+                // + currentdate.getHours() + ":"
+                // + currentdate.getMinutes();
 
 
 // export data to excel. Need to fix download to use custom export button
