@@ -10,9 +10,9 @@ $(document).ready(() => {
 
     // console.log(newData)
 
-// api call - will update to pull Android and iOS apps from single API. 448999087 com.thechive.Chive
+// api call - will update to pull Android and iOS apps from single API. 448999087 or com.thechive.Chive
     var url = "https://itunes.apple.com/lookup?"+searchType+newData
-    // var url = "http://api.searchman.io/v1/ios/us/apps?appIds="+newData+"&apiKey=c9f83085f98870d234ddeaec234c235f"
+    // var url = "http://api.searchman.io/v1/ios/us/apps?appIds="+newData+"&apiKey=xxxxxxxxxxxxxx"
     $.ajax({
       type: 'GET',
       dataType: 'json',
@@ -45,15 +45,18 @@ $(document).ready(() => {
     })
   })
 
+// get current date and time for excel file name
   var currentdate = new Date();
-    var datetime = "App_Search_" + currentdate.getDate() + "."
-                + (currentdate.getMonth()+1)  + "."
+    var datetime = "App_Search_"
+    + (currentdate.getMonth() + 1)  + "."
+                + currentdate.getDate() + "."
                 + currentdate.getFullYear() + "-"
                 + currentdate.getHours() + ":"
                 + currentdate.getMinutes();
 
-  $("#download").on("click", () => {
 
+// export data to excel. Need to fix download to use custom export button
+  $("#download").on("click", () => {
     $("table").tableExport({
       formats: ['xlsx'],
       filename: datetime,
