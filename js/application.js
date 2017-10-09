@@ -12,6 +12,7 @@ $(document).ready(() => {
 
 // api call - will update to pull Android and iOS apps from single API. 448999087 com.thechive.Chive
     var url = "https://itunes.apple.com/lookup?"+searchType+newData
+    // var url = "http://api.searchman.io/v1/ios/us/apps?appIds="+newData+"&apiKey=c9f83085f98870d234ddeaec234c235f"
     $.ajax({
       type: 'GET',
       dataType: 'json',
@@ -43,4 +44,23 @@ $(document).ready(() => {
       console.log("Ajax get request failed.");
     })
   })
+
+  var currentdate = new Date();
+    var datetime = "App_Search_" + currentdate.getDate() + "."
+                + (currentdate.getMonth()+1)  + "."
+                + currentdate.getFullYear() + "-"
+                + currentdate.getHours() + ":"
+                + currentdate.getMinutes();
+
+  $("#download").on("click", () => {
+
+    $("table").tableExport({
+      formats: ['xlsx'],
+      filename: datetime,
+      exportButtons: true,
+      ignoreCols: 0
+    });
+
+  })
+
 })

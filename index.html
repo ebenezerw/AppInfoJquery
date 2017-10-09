@@ -10,8 +10,9 @@
   <link rel="stylesheet" href="css/master.css">
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+  <script type="text/javascript" src="js/FileSaver.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/TableExport/4.0.11/js/tableexport.min.js"></script>
 </head>
-
 
 
 <body>
@@ -34,25 +35,24 @@
     <form class="">
       <label class="control-label">OS: </label>
       <label class="radio-inline"><input type="radio" name="optradio" checked="checked">iOS</label>
-      <label class="radio-inline"><input type="radio" name="optradio">Android</label>
+      <!-- <label class="radio-inline"><input type="radio" name="optradio">Android</label> -->
     </form>
 
 </div>
+
     <p>
 
     <!-- Search bar -->
       <div class="input-group">
         <input type="text" class="form-control" id="appid" placeholder="Enter App ID or Bundle ID">
         <div class="input-group-btn">
-          <button class="btn btn-success" id="search" type="submit">Submit
-      <!-- <i class="glyphicon glyphicon-search"></i> -->
-    </button>
+          <button class="btn btn-primary" id="search" type="submit">Submit</button>
         </div>
       </div>
 
-
     <p>
-
+      <p>
+      <button type="button" name="button" id="download" class="btn btn-success">Download to Excel</button>
 
       <div class="panel panel-default">
         <!-- Table -->
