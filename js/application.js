@@ -34,6 +34,7 @@ $(document).ready(() => {
               "<td>" + value.averageUserRating + "</td>" +
               "<td>" + value.trackContentRating + "</td>" +
               // "<td>" + "<a href="+value.trackViewUrl+">" + "Click Here" + "</a>" + "</td>" +
+              "<td>" + value.trackViewUrl + "</td>" +
           "</tr>"
         )
       })
@@ -58,10 +59,10 @@ $(document).ready(() => {
 // export data to excel. Need to fix download to use custom export button
   $("#download").on("click", () => {
     $("table").tableExport({
-      formats: ['xlsx'],
+      formats: ['csv'],
       filename: datetime,
-      exportButtons: true,
-      ignoreCols: 0
+      exportButtons: true
+      // ignoreCols: 0
     });
 
   })
