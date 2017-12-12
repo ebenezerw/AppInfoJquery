@@ -16,12 +16,18 @@ $(document).ready(() => {
     $.ajax({
       url: "http://api.searchman.io/v1/ios/us/apps?appIds="+newData+"&apiKey=c9f83085f98870d234ddeaec234c235f",
       type: 'GET',
-      dataType: 'json'
+      dataType: 'jsonp'
     }).done((response) => {
       console.log(response.data);
 
 // pass response to variable and loop through each object and display in UI
-      // var apps = response.data
+      var apps = response.data
+
+      Object.keys(apps).forEach((key) => {
+        let obj = apps[key];
+        console.log(obj.appName);
+      });
+
       // $(apps).each(function (index, value) {
       //   $("table").append(
       //     "<tr>" +
@@ -35,7 +41,6 @@ $(document).ready(() => {
       //         "<td>" + value.averageUserRating + "</td>" +
       //         "<td>" + value.trackContentRating + "</td>" +
       //         "<td>" + "<a href="+value.trackViewUrl+">" + "Click Here" + "</a>" + "</td>" +
-      //         "<td>" + value.trackViewUrl + "</td>" +
       //     "</tr>"
       //   )
       // })
