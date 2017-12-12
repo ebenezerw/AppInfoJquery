@@ -16,7 +16,7 @@ $(document).ready(() => {
     $.ajax({
       url: "http://api.searchman.io/v1/ios/us/apps?appIds="+newData+"&apiKey=c9f83085f98870d234ddeaec234c235f",
       type: 'GET',
-      dataType: 'jsonp'
+      dataType: 'json'
     }).done((response) => {
       console.log(response.data);
 
