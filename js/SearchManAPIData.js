@@ -1,0 +1,92 @@
+{
+  "status": 200,
+  "response_msec": 10,
+  "data": {
+    "358899126": {
+      "appId": 358899126,
+      "appName": "Tagged -Chill, Chat & Go Live!",
+      "primaryCategoryId": 6005,
+      "iconUrl": "http:\/\/is1.mzstatic.com\/image\/thumb\/Purple128\/v4\/52\/bd\/e1\/52bde116-a685-1edc-8469-9369daaa0afb\/source\/100x100bb.jpg",
+      "price": 0,
+      "currency": "USD",
+      "formattedPrice": "Free",
+      "releaseDate": "2010-03-17T23:54:55Z",
+      "version": "8.8.2",
+      "fileSizeBytes": "217784320",
+      "studioId": 358899129,
+      "studioName": "Ifwe Inc.",
+      "studioUrl": "http:\/\/www.tagged.com",
+      "hasInAppPurchases": 1,
+      "userRatingCount": 30428,
+      "averageUserRating": 4,
+      "starRatings": {
+        "1": 4256,
+        "2": 1513,
+        "3": 3035,
+        "4": 5351,
+        "5": 16273
+      },
+      "bundleId": "com.tagged.meetme",
+      "categoryIds": ["6005", "6012"],
+      "description": "Bored AF?!? Welcome to Tagged!\n\nTagged is the #1 place to link up with new people, chill and play games with over 300 Million other users!\n\nSo, what makes us different from other apps? On Tagged, we KEEP IT REAL. \nYou can do YOU and be accepted for who you are. \nNo need to change your personality on here, you\u2019re already LIT!\n\nThe question is, are you ready?! DOWNLOAD NOW and join our Fam ASAP!\n\nWith a single swipe of the thumb you can:\n- Watch a Live stream, or start your own\n- Make a quick connection with ladies and guys nearby\n- Match with people just like you, thanks to our algorithm\n- Chat with new friends\n\n\nWe look out for you too! - We take your privacy very seriously. \nYour exact location and personal information will NEVER be given without your permission. \nYOU decide if, when, and how you want to connect.\n\n\n________________________\nTagged's terms of use is located here:\nhttp:\/\/www.tagged.com\/terms_of_service.html\n\nTagged's Privacy Policy is located at: http:\/\/www.tagged.com\/terms_of_service.html?#privacy_policy\n\nMeet people faster by joining Tagged VIP:\n\n1 month packages start at $9.99\n3 month packages start at $20.99\n6 month packages start at $29.99\n12 month packages start at $47.99\n\nPayment will be charged to your iTunes Account at confirmation of purchase.\nYour account will be charged for renewal within 24-hours prior to the end of the current 1, 3, 6 or 12 month periods unless auto-renew is turned off at least 24-hours before the end of the current period\n\nAuto-renewal may be turned off by going to the user's iTunes Account Settings after purchase. No cancellation of the current subscription is allowed during the active subscription period",
+      "releaseNotes": "We are constantly working on making it easier for you to meet and chat with new people!",
+      "screenshotUrls": ["http:\/\/is2.mzstatic.com\/image\/thumb\/Purple128\/v4\/20\/20\/ed\/2020eda2-2778-9fb7-0d96-d17b0794aa60\/source\/392x696bb.jpg", "http:\/\/is3.mzstatic.com\/image\/thumb\/Purple118\/v4\/b4\/e3\/ef\/b4e3efb3-42d0-932d-77f6-251f360c4fa0\/source\/392x696bb.jpg", "http:\/\/is2.mzstatic.com\/image\/thumb\/Purple128\/v4\/ac\/a5\/7c\/aca57ce5-6862-61b0-03ae-50fd772c6df2\/source\/392x696bb.jpg", "http:\/\/is1.mzstatic.com\/image\/thumb\/Purple128\/v4\/8e\/03\/95\/8e0395e1-3555-3e2e-6e41-1a4c78ebe635\/source\/392x696bb.jpg", "http:\/\/is4.mzstatic.com\/image\/thumb\/Purple128\/v4\/2b\/d8\/fb\/2bd8fb05-f6f1-81dc-9599-7f123e32b491\/source\/392x696bb.jpg"],
+      "ipadScreenshotUrls": ["http:\/\/is4.mzstatic.com\/image\/thumb\/Purple128\/v4\/f9\/57\/40\/f9574045-63b3-b16a-f2f0-961e64398796\/source\/576x768bb.jpg", "http:\/\/is1.mzstatic.com\/image\/thumb\/Purple118\/v4\/07\/89\/aa\/0789aab6-5fcb-bdf9-48bd-43b4f0a4a469\/source\/576x768bb.jpg", "http:\/\/is5.mzstatic.com\/image\/thumb\/Purple118\/v4\/dc\/31\/d4\/dc31d4fe-88bf-797c-fb6a-fd4abd94c601\/source\/576x768bb.jpg", "http:\/\/is4.mzstatic.com\/image\/thumb\/Purple128\/v4\/dc\/7f\/eb\/dc7febe0-1927-f9d1-167f-f4bc314d029a\/source\/576x768bb.jpg", "http:\/\/is5.mzstatic.com\/image\/thumb\/Purple128\/v4\/e0\/a5\/49\/e0a549ae-21e7-c2c0-97e1-fc1686b2b397\/source\/576x768bb.jpg"],
+      "userRatingCountCurrent": 381,
+      "averageUserRatingCurrent": 2,
+      "starRatingsCurrent": {
+        "1": 188,
+        "2": 39,
+        "3": 31,
+        "4": 31,
+        "5": 92
+      },
+      "alsoInstalledAppIds": [469609836, 372648912, 771990977, 369971145, 302324249, 338701294, 486773266, 305939712, 522681493, 557997762],
+      "primaryCategoryName": "Social Networking"
+    },
+    "359917414": {
+      "appId": 359917414,
+      "appName": "Solitaire",
+      "primaryCategoryId": 6014,
+      "iconUrl": "http:\/\/is2.mzstatic.com\/image\/thumb\/Purple128\/v4\/b0\/11\/ba\/b011babe-ea98-975c-709d-2f210db9f571\/source\/100x100bb.jpg",
+      "price": 0,
+      "currency": "USD",
+      "formattedPrice": "Free",
+      "releaseDate": "2010-03-18T21:33:47Z",
+      "version": "5.1.6",
+      "fileSizeBytes": "112869376",
+      "studioId": 284117362,
+      "studioName": "Mobilityware",
+      "studioUrl": "https:\/\/www.mobilityware.com",
+      "hasInAppPurchases": 0,
+      "userRatingCount": 711420,
+      "averageUserRating": 4,
+      "starRatings": {
+        "1": 33125,
+        "2": 29418,
+        "3": 66863,
+        "4": 142714,
+        "5": 439300
+      },
+      "bundleId": "com.mobilityware.SolitaireFree",
+      "categoryIds": ["6014", "7005", "7006"],
+      "description": "Solitaire by MobilityWare is the ORIGINAL maker of Solitaire with Daily Challenges. We\u2019re ALWAYS updating our Solitaire to include fun new features! If you like Windows Solitaire, you're going to LOVE this app!! The familiar Windows Solitaire game you used to play on your computer is now available on the go!\n\nWe are the original creators of Daily Challenges! Each day you\u2019ll receive a unique Daily Challenge. Solve the Daily Challenge and receive a crown for that day. Earn trophies each month by winning more crowns! Your Daily Challenges, crowns, and current trophy status are available to view any time. You can also play Daily Challenges on the Apple Watch! Play the current day\u2019s deal and replay it as many times as you\u2019d like on that day. \n\nPlay by yourself or challenge other players in real-time. Solitaire can deal the same hand to multiple players so they can compete against each other at the same time. You can have your choice of playing with your friends or testing your solitaire strategy against a completely random player. Just because it\u2019s Solitaire doesn\u2019t mean that the play has to be solitary!\n\nHaven't won in a while? The Winning Deals feature creates a game that deals hands guaranteed to have at least one winning solution. Use \"Show Me How To Win\" to help walk you through the moves required to win the deal if you still need a hand.\n\nThink you have the best Solitaire score around? With Apple's Game Center enabled, you can check the Game Center leaderboards to see how your Solitaire skills stack up against top players all around the world!\n\nThe addicting game you\u2019ve been playing on your computer for years now goes wherever you do. Solitaire is a universal app, playable in the best resolution available for each Apple device. Download Solitaire today!\n\nFEATURES:\n-Daily Challenges\n-iMessage Stickers\n-Theme Packs\n-Multiplayer Solitaire\n-Winning Deals\n-Show Me How To Win\n-Game Center leaderboards\n-3D Touch in phone menu\n-Draw 1 card\n-Draw 3 cards\n-Portrait\n-Landscape\n-Modern Card Fonts\n-Custom card backs\n-Custom backgrounds\n-Achievements\n-Right or left handed play\n-Game state saved when interrupted\n-Unlimited undo\n-Auto complete to finish game\n-Standard scoring\n-Vegas scoring\n-Statistics\n\nAPPLE WATCH FEATURES:\n-View completed Daily Challenges, jeweled crowns, and current trophy status\n-Draw 3 option on your iPhone reflected on the Apple Watch\n-Countdown to next day\u2019s challenge\n-Replay the current day\u2019s challenge\n\nFor answers to frequently asked questions, head over to\nhttp:\/\/www.mobilityware.com\/support.php\n\nLIKE US on Facebook\nhttp:\/\/www.facebook.com\/mobilitywaresolitaire\n\nFOLLOW US on Twitter\n@mobilityware\n\nFor the latest info and what we are up to, check out\nhttp:\/\/www.MobilityWare.com\/\n\nCreated and supported by MobilityWare",
+      "releaseNotes": "Fans, thank you for playing Solitaire! If you love our game, please leave us a review.\n\nIn this version we\u2019ve implemented updates to improve your overall experience. Enjoy!",
+      "screenshotUrls": ["http:\/\/is5.mzstatic.com\/image\/thumb\/Purple127\/v4\/76\/7d\/84\/767d84cb-ea8a-e2fd-7a96-1bcb766c19b1\/source\/392x696bb.jpg", "http:\/\/is1.mzstatic.com\/image\/thumb\/Purple127\/v4\/79\/02\/58\/790258b4-b0d6-d169-e0f6-23c2dcd1ed23\/source\/392x696bb.jpg", "http:\/\/is1.mzstatic.com\/image\/thumb\/Purple127\/v4\/ef\/33\/39\/ef3339f4-f9bf-2f32-4e6b-043efb9416e4\/source\/392x696bb.jpg", "http:\/\/is4.mzstatic.com\/image\/thumb\/Purple127\/v4\/1e\/b7\/bb\/1eb7bb45-561d-8c14-1509-1e7734dec425\/source\/392x696bb.jpg", "http:\/\/is4.mzstatic.com\/image\/thumb\/Purple117\/v4\/4f\/2d\/62\/4f2d627a-5f25-3a82-b5f8-3a39eb114e74\/source\/392x696bb.jpg"],
+      "ipadScreenshotUrls": ["http:\/\/is1.mzstatic.com\/image\/thumb\/Purple127\/v4\/40\/76\/33\/407633df-5859-af39-6cc4-359d9471ec87\/source\/576x768bb.jpg", "http:\/\/is2.mzstatic.com\/image\/thumb\/Purple127\/v4\/5c\/60\/f7\/5c60f761-0985-de1d-2ad2-1640d2e04c62\/source\/576x768bb.jpg", "http:\/\/is5.mzstatic.com\/image\/thumb\/Purple117\/v4\/e6\/20\/40\/e6204027-e355-d18f-b183-832fecf2055e\/source\/576x768bb.jpg", "http:\/\/is2.mzstatic.com\/image\/thumb\/Purple117\/v4\/6c\/b3\/ce\/6cb3cefd-b9df-1e3e-3ff2-5c6747ba0b9f\/source\/576x768bb.jpg", "http:\/\/is5.mzstatic.com\/image\/thumb\/Purple117\/v4\/28\/63\/6d\/28636dd1-4ae3-9869-9c77-504b939e0d5d\/source\/576x768bb.jpg"],
+      "videoUrl": "http:\/\/apptrailers.itunes.apple.com\/apple-assets-us-std-000001\/PurpleVideo128\/v4\/2a\/e2\/0e\/2ae20ecd-031a-decb-93cb-d55a943b4a4b\/P49245542_default.m3u8",
+      "videoScreenUrl": "http:\/\/is3.mzstatic.com\/image\/thumb\/Video118\/v4\/af\/20\/19\/af201951-785e-e7a1-b25a-051abd87e5b7\/source\/236x420bb.jpg",
+      "userRatingCountCurrent": 34553,
+      "averageUserRatingCurrent": 4,
+      "starRatingsCurrent": {
+        "1": 879,
+        "2": 782,
+        "3": 1608,
+        "4": 6974,
+        "5": 24310
+      },
+      "alsoInstalledAppIds": [979100082, 479280326, 495583717, 593715088, 609067187, 922488002, 439873467, 1055672607],
+      "primaryCategoryName": "Games"
+    }
+  }
+}
