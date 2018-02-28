@@ -14,9 +14,10 @@ $(document).ready(() => {
     // var url = "https://itunes.apple.com/lookup?"+searchType+newData
     // var url = "http://api.searchman.io/v1/ios/us/apps?appIds="+newData+"&apiKey=c9f83085f98870d234ddeaec234c235f"
     $.ajax({
-      url: "http://api.searchman.io/v1/ios/us/apps?bundleId=" + newData + "&apiKey=c9f83085f98870d234ddeaec234c235f",
+      url: "http://api.searchman.io/v1/ios/us/apps?appIds=" + newData + "&apiKey=c9f83085f98870d234ddeaec234c235f",
       type: 'GET',
-      dataType: 'jsonp'
+      dataType: 'jsonp',
+      jsonpCallback: 'jsonCallback'
     }).done((response) => {
       console.log(response.data);
 

@@ -13,7 +13,15 @@
 input[type=text]:focus {
     width: 100%;
 }*/
-
+/*
 img {
   border-radius: 12.632px;
 }
+
+.keith {
+  /* border-radius: 50px; */
+  /* border-style: solid;
+  border-color: black;
+  height: 100%;
+  width: 100%;
+} */
