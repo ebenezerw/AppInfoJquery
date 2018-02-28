@@ -40,6 +40,7 @@ $(document).ready(() => {
       })
       $("a").attr('target','_blank');
       $('#appid').val(" ");
+      console.log("success");
     }).fail((response) => {
       swal("Error", "Please verify that the data entered corresponds with your 'Search by' selection", "error");
       console.log("Ajax get request failed.");
