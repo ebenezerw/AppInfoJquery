@@ -14,10 +14,9 @@ $(document).ready(() => {
     // var url = "https://itunes.apple.com/lookup?"+searchType+newData
     // var url = "http://api.searchman.io/v1/ios/us/apps?appIds="+newData+"&apiKey=c9f83085f98870d234ddeaec234c235f"
     $.ajax({
-      url: "http://api.searchman.io/v1/ios/us/apps?appIds=" + newData + "&apiKey=c9f83085f98870d234ddeaec234c235f",
+      url: "http://api.searchman.io/v1/android/us/apps?appIds=" + newData + "&apiKey=581efebbf503aa252e5fbfefb9007a4b",
       type: 'GET',
-      dataType: 'jsonp',
-      jsonpCallback: 'jsonCallback'
+      dataType: 'json'
     }).done((response) => {
       console.log(response.data);
 
@@ -29,16 +28,16 @@ $(document).ready(() => {
         $(obj).each(function(index, value) {
           $("table").append(
             "<tr>" +
-            "<td>" + "<img src=" + value.artworkUrl60 + ">" + "</td>" +
-            "<td>" + "<a href=" + value.trackViewUrl + ">" + value.trackName + "</a>" + "</td>" +
+            "<td>" + "<img src=" + value.iconUrl + ">" + "</td>" +
+            "<td>" + "<a href=" + value.trackViewUrl + ">" + value.appName + "</a>" + "</td>" +
             "<td>" + value.studioName + "</td>" +
             "<td>" + value.bundleId + "</td>" +
             "<td>" + value.appId + "</td>" +
-            "<td>" + value.categoryIds + "</td>" +
-            "<td>" + value.currentVersionReleaseDate.slice(0, -10) + "</td>" +
-            "<td>" + value.averageUserRating + "</td>" +
-            "<td>" + value.trackContentRating + "</td>" +
-            "<td>" + "<a href=" + value.trackViewUrl + ">" + "Click Here" + "</a>" + "</td>" +
+            // "<td>" + value.categoryIds + "</td>" +
+            // "<td>" + value.currentVersionReleaseDate.slice(0, -10) + "</td>" +
+            // "<td>" + value.averageUserRating + "</td>" +
+            // "<td>" + value.trackContentRating + "</td>" +
+            // "<td>" + "<a href=" + value.trackViewUrl + ">" + "Click Here" + "</a>" + "</td>" +
             "</tr>"
           )
         })
